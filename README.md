@@ -32,6 +32,7 @@ associated with database usage.
 
 ## Core Logic
 ```java
+        PrintWriter out = response.getWriter();
         Connection connection = null;
         PreparedStatement preparedStatement = null;
 
